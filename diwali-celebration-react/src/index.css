@@ -1,0 +1,16 @@
+:root {
+  font-family: "Times New Roman", Times, serif;
+  color: #fff;
+  background: #100b24;
+  font-synthesis: none;
+}
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body { margin: 0; min-width: 320px; }
+button, a, select, textarea { font: inherit; }
+button { cursor: pointer; }
+button:focus-visible, a:focus-visible, textarea:focus-visible, select:focus-visible {
+  outline: 2px solid #ffd166;
+  outline-offset: 3px;
+}
+::selection { background: #e34bba; color: white; }
